@@ -1,0 +1,3 @@
+[submodule "beeper_bridge-manager"]
+	path = beeper_bridge-manager
+	url = https://github.com/beeper/bridge-manager.git

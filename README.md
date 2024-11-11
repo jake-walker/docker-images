@@ -6,6 +6,7 @@ These are some custom images that are regularly built for AMD64 and ARM64 archit
 | Name | Description |
 | --- | --- |
 | `ghcr.io/jake-walker/beeper_bridge-manager` | This is an exact build of Beeper's [bridge-manager](https://github.com/beeper/bridge-manager) but with an ARM64 build. |
+| `ghcr.io/jake-walker/gitea-jupyter` | This is the default Gitea image with a Jupyter notebook renderer installed. [Extra configuration](https://blog.gitea.com/render-jupyter-notebooks/#configuring-gitea-to-use-the-converter) is required to enable this. |
 <!-- generate end -->
 
 _Images are also available on Docker Hub at `jakewalker/<image name>`._

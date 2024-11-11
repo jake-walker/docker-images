@@ -4,5 +4,11 @@
     "context": "./beeper_bridge-manager",
     "dockerfile": "./beeper_bridge-manager/docker/Dockerfile",
     "description": "This is an exact build of Beeper's [bridge-manager](https://github.com/beeper/bridge-manager) but with an ARM64 build."
+  },
+  {
+    "name": "gitea-jupyter",
+    "context": "./gitea-jupyter",
+    "dockerfile": "./gitea-jupyter/Dockerfile",
+    "description": "This is the default Gitea image with a Jupyter notebook renderer installed. [Extra configuration](https://blog.gitea.com/render-jupyter-notebooks/#configuring-gitea-to-use-the-converter) is required to enable this."
   }
 ]

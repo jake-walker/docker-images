@@ -10,5 +10,17 @@
     "context": "./gitea-jupyter",
     "dockerfile": "./gitea-jupyter/Dockerfile",
     "description": "This is the default Gitea image with a Jupyter notebook renderer installed. [Extra configuration](https://blog.gitea.com/render-jupyter-notebooks/#configuring-gitea-to-use-the-converter) is required to enable this."
+  },
+  {
+    "name": "matterbridge_whatsappmulti",
+    "context": "./matterbridge",
+    "dockerfile": "./matterbridge/Dockerfile_whatsappmulti",
+    "description": "A build of the matterbridge WhatsApp multi image."
+  },
+  {
+    "name": "custom-caddy",
+    "context": "./custom-caddy",
+    "dockerfile": "./custom-caddy/Dockerfile",
+    "description": "A custom build of Caddy with the plugins: [WebDAV](https://github.com/mholt/caddy-webdav), [replace_response handler](https://github.com/caddyserver/replace-response), [cloudflare](https://github.com/caddy-dns/cloudflare)."
   }
 ]

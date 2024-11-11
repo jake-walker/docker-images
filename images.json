@@ -1,0 +1,8 @@
+[
+  {
+    "name": "beeper_bridge-manager",
+    "context": "./beeper_bridge-manager",
+    "dockerfile": "./beeper_bridge-manager/docker/Dockerfile",
+    "description": "This is an exact build of Beeper's [bridge-manager](https://github.com/beeper/bridge-manager) but with an ARM64 build."
+  }
+]

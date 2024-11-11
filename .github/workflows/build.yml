@@ -34,7 +34,7 @@ jobs:
           flavor: |
             latest=true
           images: |
-            jake-walker/${{ matrix.image.name }}
+            jakewalker/${{ matrix.image.name }}
             ghcr.io/jake-walker/${{ matrix.image.name }}
           tags: |
             type=schedule
